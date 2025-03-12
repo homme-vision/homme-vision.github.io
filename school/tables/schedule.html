@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Busy Day Schedule</title>
+<style>
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #e0f7fa;
+  }
+
+  #morning-row {
+    background-color: #fff8e1; /* Light yellow for morning */
+  }
+
+  .time-column {
+    width: 15%;
+    font-weight: bold;
+    color: #00796b; /* Teal for time */
+  }
+
+  td {
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+  <h2>My Super Busy Day</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Activity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="morning-row">
+        <td class="time-column">7:00 AM</td>
+        <td>Wake up, morning routine</td>
+      </tr>
+      <tr>
+        <td class="time-column">8:00 AM</td>
+        <td>Breakfast and review schedule</td>
+      </tr>
+      <tr>
+        <td class="time-column">9:00 AM</td>
+        <td>Attend online meeting</td>
+      </tr>
+      <tr>
+        <td class="time-column">11:00 AM</td>
+        <td>Grocery shopping</td>
+      </tr>
+      <tr>
+        <td class="time-column">1:00 PM</td>
+        <td>Lunch</td>
+      </tr>
+      <tr>
+        <td class="time-column">2:00 PM</td>
+        <td>Work on project report</td>
+      </tr>
+      <tr>
+        <td class="time-column">5:00 PM</td>
+        <td>Gym workout</td>
+      </tr>
+      <tr>
+        <td class="time-column">7:00 PM</td>
+        <td>Dinner</td>
+      </tr>
+      <tr>
+        <td class="time-column">8:00 PM</td>
+        <td>Relax and read</td>
+      </tr>
+      <tr>
+        <td class="time-column">10:00 PM</td>
+        <td>Prepare for bed</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
